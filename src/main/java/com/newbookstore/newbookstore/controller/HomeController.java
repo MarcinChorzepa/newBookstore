@@ -9,4 +9,9 @@ public class HomeController {
     public String index() {
         return "index";
     }
+
+    @RequestMapping("/nowy")
+    public String indexDrugi() {
+        return "index";
+    }
 }
