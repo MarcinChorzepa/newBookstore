@@ -18,6 +18,6 @@ public class CalculationServiceTest {
     @Test
     public void calculateValue() {
         int result = calculationService.calculateValue(2);
-        Assert.assertEquals(3, result);
+        Assert.assertEquals(9, result);
     }
 }
