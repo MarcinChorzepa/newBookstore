@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class CalculationService {
 
     public int calculateValue(int value) {
-        return value * 2 + 4;
+        return value * 2 + 5;
     }
 }
