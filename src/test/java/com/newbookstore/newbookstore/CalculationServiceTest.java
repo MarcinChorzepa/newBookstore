@@ -19,6 +19,6 @@ public class CalculationServiceTest {
     public void calculateValue() {
         int result = calculationService.calculateValue(2);
         Assert.assertEquals(9, result);
-        //comment
+        
     }
 }
